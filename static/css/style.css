@@ -19,14 +19,13 @@ header {
     margin-right: auto;
     text-align: center;
     width: 700px;
-    height: 100vh;
     padding-top: 50px;
 }
 
 .calculator {
     background-color: #010101;
     width: 55%;
-    color: white;
+    color: #D4AFD8;
     margin-left: auto;
     margin-right: auto;
     padding: 20px 15px;
