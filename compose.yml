@@ -1,0 +1,8 @@
+services:
+  web:
+    image: nginx
+    container_name: nginx
+    ports:
+      - 8000:80
+    volumes:
+      - ./calculator:/usr/share/nginx/html
