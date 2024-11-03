@@ -6,6 +6,8 @@
 
 body {
     font-family: Verdana;
+    background: rgb(63,251,217);
+    background: radial-gradient(circle, rgba(63,251,217,1) 0%, rgba(84,196,13,1) 100%);
 }
 
 header {
@@ -34,10 +36,10 @@ header {
 
 #total {
     display: flex;
-    height: 150px;
+    height: 100px;
     justify-content: right;
     align-items: start;
-    font-size: 3em;
+    font-size: 2.17em;
 }
 
 #clear {
@@ -46,6 +48,10 @@ header {
     align-items: center;
     height: 50px;
     border-bottom: solid 1px rgb(107, 106, 106);
+}
+
+table {
+    width: 100%;
 }
 
 .clear-button {
@@ -58,14 +64,6 @@ header {
     width: 100%;
 }
 
-#buttons {
-    display: grid;
-    max-width: 100%;
-    justify-content: center;
-    justify-items: center;
-    grid-template-columns: repeat(4, 100px);
-}
-
 .btn {
     display: flex;
     justify-content: center;
@@ -76,6 +74,11 @@ header {
     margin-top: 20px;
     width: 70px;
     transition: 0.2s;
+}
+
+.zero {
+    border-radius: 14px;
+    width: 90%;
 }
 
 button {
